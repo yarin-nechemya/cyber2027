@@ -1,3 +1,4 @@
+
 # Homework 1 - student04
 
 caesar:
@@ -5,3 +6,14 @@ L DXLWW MZLE NCZDDPO ESP WLVP PLCWJ TY ESP XZCYTYR MPQZCP ESP DEZCX LCCTGPO ESP 
 
 transposition:
 TMWEH CEUOSL TPETRU E HHIITUTU DRCISSR LYSRRTOETL ROSNG HBT AAE UE HS TLOS SEETORUWC  DAMMAECE NDD WTHOADHTLEALEONOEM AIT  ELREOIIVYLMR M ETYSHBF  YN CTE YBET
+
+
+key=11,decrypted=A SMALL BOAT CROSSED THE LAKE EARLY IN THE MORNING BEFORE THE STORM ARRIVED THE TEAM WON THE MATCH IN THE LAST MINUTE AFTER A
+key=7,decrypted= THE COMMITTEE WILL MEET ON THURSDAY TO DISCUSS THE NEW BUDGET FOR THE SCHOOL LIBRARY STUDENTS WHO PRACTICE A LITTLE EVERY DAY USUALLY REMEMBER MORE THAN THOSE
+
+1.why did our code breaker failed in shorter texts?
+answer: our code breaker failed because in the ceaser version we used statistics to find how close the distribution of the letters to the distribution of the letters in a much larger data set and as the smaller the data set is the prediction will be worse and less accurate if we use only thid as a source
+2.how many keys did the transposition decoder used?
+it went over the whole loop which consists of len(msg) keys because its go over 1,2,...,len(msg)
+3)how to make our decoder useless?
+the first one if we use a text which use unused characters like q z and j and the second if well use random characters in between it wont work
